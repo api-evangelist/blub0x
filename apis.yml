@@ -1,23 +1,85 @@
 aid: blub0x
+
 name: Blub0x
-description: 'Blub0x is a company surfaced via the API Evangelist harvest backlog (source: secondary-market)
-  and added to the network as a stub for full-pipeline profiling.'
+
+description: 'BluBØX manufactures and services physical security products, offering the BluSKY platform—a patented, AI‑powered, cloud‑based security solution for residential, SMB and enterprise customers. The company provides hardware such as access control readers, video intercoms, elevator management systems, and related software services.'
+
 url: https://raw.githubusercontent.com/api-evangelist/blub0x/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:secondary-market
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-09-29 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-09-29'
+
 modified: '2026-09-29'
+
 tags:
-- Company
-apis: []
+- Physical Security
+- Cloud Security
+- Access Control
+- Elevator Management
+- AI
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+
 common:
+- type: Spectral
+  url: rules/blub0x-rules.yml
+- type: Conformance
+  url: conformance/blub0x-conformance.yml
+- type: Hosts
+  url: hosts/blub0x-hosts.yml
+- type: Vendors
+  url: vendors/blub0x-vendors.yml
+- type: Newsroom
+  url: https://www.blub0x.com/news/blubox-oracle/
+- type: GettingStarted
+  url: https://bluinfo.z13.web.core.windows.net/AI_Generated_Docs/Setup/
+- type: DomainSecurity
+  url: security/blub0x-domain-security.yml
 - type: Website
-  url: https://equityzen.com/company/blub0x
+  url: https://www.blub0x.com
+- type: Documentation
+  url: https://knowledge.blub0x.com
+- type: APIReference
+  url: https://knowledge.blub0x.com/Web_API
+- type: Support
+  url: https://www.blub0x.com/contact-blubox/
+- type: Blog
+  url: https://knowledge.blub0x.com/Media/Blog/
+
+apis:
+- aid: blub0x:blub0x-api
+  name: Blub0x API
+  description: 'Blub0x API as documented publicly: 13 operations. Contract generated from the documentation by API Evangelist (2026-09-29); not
+    the provider''s own document.'
+  humanURL: https://bluinfo.z13.web.core.windows.net/BluB0X_Officially_Supports_Allegion_NDE__LE__BE_and_FE_Locks_with_the_Gateways
+  properties:
+  - type: OpenAPI
+    url: openapi/_ae-authored/blub0x-openapi-generated.yml
+    x-provenance: generated
+
+x-coverage:
+  state: unreadable
+  reason: js-rendered-docs
+  detail: Documentation pages are rendered via Docusaurus JavaScript and no machine‑readable OpenAPI spec was found.
+  evidence:
+    - url: https://knowledge.blub0x.com/Web_API
+      status: 200
+  checked: '2026-09-29'
+x-enrichment:
+  date: '2026-09-29'
+  status: enriched
+  artifacts_added: 8
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local,regulatory=local

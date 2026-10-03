@@ -59,16 +59,26 @@ common:
   url: https://knowledge.blub0x.com/Media/Blog/
 
 apis:
-- aid: blub0x:blub0x-api
-  name: Blub0x API
-  description: 'Blub0x API as documented publicly: 13 operations. Contract generated from the documentation by API Evangelist (2026-09-29); not
-    the provider''s own document.'
-  humanURL: https://bluinfo.z13.web.core.windows.net/BluB0X_Officially_Supports_Allegion_NDE__LE__BE_and_FE_Locks_with_the_Gateways
+- aid: blub0x:blub0x-enage-api
+  name: Blub0x Enage API
+  description: The Enage API from Blub0x — 1 operation(s) for enage.
+  humanURL: >-
+    https://bluinfo.z13.web.core.windows.net/BluB0X_Officially_Supports_Allegion_NDE__LE__BE_and_FE_Locks_with_the_Gateways
+  tags:
+  - Enage
   properties:
   - type: OpenAPI
-    url: openapi/_ae-authored/blub0x-openapi-generated.yml
-    x-provenance: generated
-
+    url: openapi/blub0x-enage-api-openapi.yml
+- aid: blub0x:blub0x-engage-api
+  name: Blub0x Engage API
+  description: The Engage API from Blub0x — 10 operation(s) for engage.
+  humanURL: >-
+    https://bluinfo.z13.web.core.windows.net/BluB0X_Officially_Supports_Allegion_NDE__LE__BE_and_FE_Locks_with_the_Gateways
+  tags:
+  - Engage
+  properties:
+  - type: OpenAPI
+    url: openapi/blub0x-engage-api-openapi.yml
 x-coverage:
   state: unreadable
   reason: js-rendered-docs

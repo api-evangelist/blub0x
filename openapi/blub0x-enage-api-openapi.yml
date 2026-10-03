@@ -1,0 +1,39 @@
+openapi: 3.2.0
+info:
+  title: Blub0x Enage API
+  version: '2026-09-29'
+  description: 'GENERATED FROM DOCUMENTATION by API Evangelist on 2026-09-29: 13 operation(s) read from 1 public documentation page(s) (each operation names its page in x-source). This is not the provider''s published contract; Blub0x has published no machine-readable contract that the pipeline could find. Engine: local.'
+  x-evidence-tiers:
+    code-example: 0
+    documentation: 13
+    pages-with-code: 0
+    pages-read: 1
+  x-generated-from: documentation
+  x-provenance: generated
+  x-authored-by: API Evangelist
+  x-generated: '2026-09-29'
+  x-generator: generate-contract-from-docs.py
+  x-engine: local
+  x-sources:
+  - https://bluinfo.z13.web.core.windows.net/BluB0X_Officially_Supports_Allegion_NDE__LE__BE_and_FE_Locks_with_the_Gateways
+tags:
+- name: Enage
+paths:
+  /enage/devices/sites/{sitereference}:
+    get:
+      operationId: get_enage_devices_sites_sitereference
+      tags:
+      - Enage
+      summary: Pass Get all Devices on a given site
+      x-source: https://bluinfo.z13.web.core.windows.net/BluB0X_Officially_Supports_Allegion_NDE__LE__BE_and_FE_Locks_with_the_Gateways
+      parameters:
+      - name: sitereference
+        in: path
+        required: true
+        schema:
+          type: string
+      responses:
+        '200':
+          description: Success (status as documented)
+      x-evidence:
+        kind: documentation

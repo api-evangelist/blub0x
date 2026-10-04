@@ -19,7 +19,16 @@ created: '2026-09-29'
 
 modified: '2026-09-29'
 
+x-docs-platform: docusaurus
+x-docs-platform-confidence: medium
+x-docs-platform-checked: 2026-10-03
 tags:
+- Physical Security
+- Cloud Security
+- Access Control
+- Elevator Management
+- Artificial Intelligence
+tags_raw:
 - Physical Security
 - Cloud Security
 - Access Control
@@ -75,6 +84,8 @@ apis:
   humanURL: >-
     https://bluinfo.z13.web.core.windows.net/BluB0X_Officially_Supports_Allegion_NDE__LE__BE_and_FE_Locks_with_the_Gateways
   tags:
+  - ENGAGE
+  tags_raw:
   - Engage
   properties:
   - type: OpenAPI

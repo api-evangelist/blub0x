@@ -42,6 +42,10 @@ maintainers:
   email: info@apis.io
 
 common:
+- type: Pricing
+  url: https://knowledge.blub0x.com/MSRP_Pricing
+- type: Plans
+  url: plans/blub0x-plans-pricing.yml
 - url: https://www.blub0x.com/feed/
   type: BlogRSS
 - type: Spectral

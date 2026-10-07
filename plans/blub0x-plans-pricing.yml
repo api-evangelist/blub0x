@@ -1,0 +1,125 @@
+# Pricing transcribed from the provider's own page — see provenance. Numbers are quoted, not derived.
+generated: '2026-10-07'
+method: searched
+source: https://knowledge.blub0x.com/MSRP_Pricing
+sources:
+- https://knowledge.blub0x.com/MSRP_Pricing
+provenance:
+  tool: all/0-working/economics/harvest_pricing.py
+  run: 20261007T122525
+  grounding: every price_text was found verbatim in the fetched page text
+audience: business-product
+pricing_basis: usage-other
+delivery:
+  delivery: unclear
+  method: page
+  read: '2026-10-07'
+published: true
+note: 'MSRP price list page for BluB0X/BluSKY: annual subscription licenses metered per user/reader/camera/credential/transaction
+  (API and SIEM metered ''per transaction'' at ''variable'' price), plus extensive one-time software integration
+  fees and hardware kit MSRPs. Only a representative subset of the very long hardware list is transcribed.
+  Page text truncated at 60,000 characters.'
+plan_count: 15
+currency: USD
+plans:
+- name: 817-0100 Platform (per user)
+  price_text: $3
+  price: 3
+  currency: USD
+  period: year
+  unit: per user
+  included_quota: Includes Facility, Company, People and Credential Management, Photo-IDs, and Badge Design
+    and Printing
+- name: 817-1120 Intelligence
+  price_text: variable
+  period: year
+  unit: '% of licenses'
+  included_quota: Artificial Intelligence, Localization, Analytics, Rules, Monitoring, Reporting, Dashboards,
+    Interactive Maps, System Health, Notifications, Distribution Lists, Power Management, Remote Diagnostics
+- name: 817-0240 API
+  price_text: variable
+  period: year
+  unit: per transaction
+  included_quota: API Usage for Two-Way Database Integration between BluSKY and an External Database
+- name: 817-0280 Single Sign-On
+  price_text: $1.50
+  price: 1.5
+  currency: USD
+  period: year
+  unit: per user
+  included_quota: BluSKY Log In using Client Authenticated Password
+- name: 817-0290 SIEM
+  price_text: variable
+  period: year
+  unit: per transaction
+  included_quota: SIEM Usage via Service Bus Messages
+- name: 817-0680 Camera
+  price_text: $180
+  price: 180
+  currency: USD
+  period: year
+  unit: per video stream
+  included_quota: Video Surveillance Functionality for Cameras
+- name: 817-0320 Reader - C
+  price_text: $144
+  price: 144
+  currency: USD
+  period: year
+  unit: per reader
+  included_quota: Access Control Functionality for Readers
+- name: 817-0360 Reader - PR
+  price_text: $288
+  price: 288
+  currency: USD
+  period: year
+  unit: per reader
+  included_quota: Person Readers
+- name: 817-0330 Reader - R
+  price_text: $48
+  price: 48
+  currency: USD
+  period: year
+  unit: per reader
+  included_quota: Residential Readers
+- name: 817-0600 Alarm & Intrusion
+  price_text: $24
+  price: 24
+  currency: USD
+  period: year
+  unit: per input
+  included_quota: Alarm and Intrusion functionality for any BluSKY Input or Logical Alarm
+- name: 817-0820 Visitor & Vendor Processing
+  price_text: $0.20
+  price: 0.2
+  currency: USD
+  period: year
+  unit: per visitor request
+  included_quota: Pre-Registration, Admission, DL Scanning, Watchlist Check, Photo-ID Capture, Badge Printing
+- name: 817-0440 BluID
+  price_text: $6
+  price: 6
+  currency: USD
+  period: year
+  unit: per credential
+  included_quota: Perpetual Use Bluetooth Mobile Credential
+- name: 817-0880 BluPASS
+  price_text: $0.30
+  price: 0.3
+  currency: USD
+  period: year
+  unit: per credential
+  included_quota: Temporary Credential for Visitors and Vendors
+- name: 819-1510 API Integration - per System (one-time)
+  price_text: $10,300
+  price: 10300
+  currency: USD
+  period: one-time
+  unit: per system
+  included_quota: API Integration
+- name: 819-1530 Active Directory Integration - per System (one-time)
+  price_text: $10,300
+  price: 10300
+  currency: USD
+  period: one-time
+  unit: per system
+  included_quota: Active Directory Integration

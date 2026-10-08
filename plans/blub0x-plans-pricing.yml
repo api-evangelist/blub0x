@@ -123,3 +123,136 @@ plans:
   period: one-time
   unit: per system
   included_quota: Active Directory Integration
+x-canonical:
+  generated: '2026-10-08'
+  vocabulary: all/0-working/economics/plans-canonical.yml
+  models:
+  - hybrid
+  - metered
+  - seat
+  - subscription
+  units:
+  - request
+  - seat
+  - transaction
+  plans:
+  - name: 817-0100 Platform (per user)
+    access: other
+    model: seat
+    model_how: derived
+    units:
+    - seat
+    periods:
+    - year
+  - name: 817-1120 Intelligence
+    access: other
+    model: unstated
+    model_how: derived
+    units:
+    - other
+    periods:
+    - year
+  - name: 817-0240 API
+    access: other
+    model: metered
+    model_how: derived
+    units:
+    - transaction
+    periods:
+    - year
+  - name: 817-0280 Single Sign-On
+    access: other
+    model: seat
+    model_how: derived
+    units:
+    - seat
+    periods:
+    - year
+  - name: 817-0290 SIEM
+    access: other
+    model: metered
+    model_how: derived
+    units:
+    - transaction
+    periods:
+    - year
+  - name: 817-0680 Camera
+    access: other
+    model: subscription
+    model_how: derived
+    units:
+    - other
+    periods:
+    - year
+  - name: 817-0320 Reader - C
+    access: other
+    model: subscription
+    model_how: derived
+    units:
+    - other
+    periods:
+    - year
+  - name: 817-0360 Reader - PR
+    access: other
+    model: subscription
+    model_how: derived
+    units:
+    - other
+    periods:
+    - year
+  - name: 817-0330 Reader - R
+    access: other
+    model: subscription
+    model_how: derived
+    units:
+    - other
+    periods:
+    - year
+  - name: 817-0600 Alarm & Intrusion
+    access: other
+    model: subscription
+    model_how: derived
+    units:
+    - other
+    periods:
+    - year
+  - name: 817-0820 Visitor & Vendor Processing
+    access: other
+    model: hybrid
+    model_how: derived
+    units:
+    - request
+    periods:
+    - year
+  - name: 817-0440 BluID
+    access: other
+    model: subscription
+    model_how: derived
+    units:
+    - other
+    periods:
+    - year
+  - name: 817-0880 BluPASS
+    access: other
+    model: subscription
+    model_how: derived
+    units:
+    - other
+    periods:
+    - year
+  - name: 819-1510 API Integration - per System (one-time)
+    access: other
+    model: subscription
+    model_how: derived
+    units:
+    - other
+    periods:
+    - one-time
+  - name: 819-1530 Active Directory Integration - per System (one-time)
+    access: other
+    model: subscription
+    model_how: derived
+    units:
+    - other
+    periods:
+    - one-time
